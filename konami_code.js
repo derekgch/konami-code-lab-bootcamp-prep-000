@@ -33,7 +33,7 @@ function init() {
 
 
 }
-init()
+init();
 //
 // const alphabet = [65, 66, 67];
 //
