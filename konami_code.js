@@ -6,10 +6,10 @@ function init() {
 
   document.body.onkeydown = function(e){
     const key = parseInt(e.detail || e.which);
-      if (key === alphabet[index]) {
+      if (key === code[index]) {
         index++;
 
-        if (index === alphabet.length) {
+        if (index === code.length) {
           alert("Hurray!");
 
           index = 0;
