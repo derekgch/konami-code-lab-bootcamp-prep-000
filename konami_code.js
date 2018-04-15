@@ -8,7 +8,7 @@ function init() {
       alert(String.fromCharCode(e.keyCode)+" --> "+e.keyCode);
   };
   // const key = parseInt(e.detail || e.which);
-  // 
+  //
   // if (key === code[index]) {
   //   index++;
   //   if (index === code.length) {
