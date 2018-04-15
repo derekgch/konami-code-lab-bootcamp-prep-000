@@ -5,20 +5,20 @@ function init() {
   let index = 0;
   const input = document.querySelector('input')
 
-input.addEventListener('keydown', function(e) {
-  console.log(e.which)
-  const key = parseInt(e.detail || e.which);
-
-  if (key === code[index]) {
-    index++;
-    if (index === code.length) {
-      alert("Hurray!");
-      index = 0;
-    }
-  } else {
-    index = 0;
-  }
-})
+// input.addEventListener('keydown', function(e) {
+//   console.log(e.which)
+//   const key = parseInt(e.detail || e.which);
+// 
+//   if (key === code[index]) {
+//     index++;
+//     if (index === code.length) {
+//       alert("Hurray!");
+//       index = 0;
+//     }
+//   } else {
+//     index = 0;
+//   }
+// })
 
 
 }
