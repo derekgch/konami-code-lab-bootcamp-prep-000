@@ -6,7 +6,7 @@ function init() {
 
   document.body.onkeydown = function(e){
       alert(String.fromCharCode(e.keyCode)+" --> "+e.keyCode);
-  };
+  }
   // const key = parseInt(e.detail || e.which);
   //
   // if (key === code[index]) {
@@ -18,7 +18,7 @@ function init() {
   // } else {
   //   index = 0;
   // }
-})
+
 
 
 }
