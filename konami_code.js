@@ -7,7 +7,7 @@ function init() {
   document.body.onkeydown = function(e){
       alert(String.fromCharCode(e.keyCode)+" --> "+e.keyCode);
       console.log(e.which);
-  }
+  };
   // const key = parseInt(e.detail || e.which);
   //
   // if (key === code[index]) {
